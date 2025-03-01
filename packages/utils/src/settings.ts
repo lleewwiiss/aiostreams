@@ -200,7 +200,7 @@ export class Settings {
 
   public static readonly EASYNEWS_PLUS_URL =
     process.env.EASYNEWS_PLUS_URL ||
-    'https://b89262c192b0-stremio-easynews-addon.baby-beamup.club/';
+    'https://easynews-cloudflare-worker.lleewwiisss.workers.dev/';
   public static readonly DEFAULT_EASYNEWS_PLUS_TIMEMOUT = process.env
     .DEFAULT_EASYNEWS_PLUS_TIMEMOUT
     ? parseInt(process.env.DEFAULT_EASYNEWS_PLUS_TIMEMOUT)
